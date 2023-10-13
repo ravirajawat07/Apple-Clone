@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    padding-block: 10px;
+    padding-inline: 200px;
+}
+
+.nav-bar ul{
+    width: 100%;
+    display: flex;
+    color: rgb(183, 179, 179);
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.nav-bar ul li{
+    list-style: none;
+}
+
+/* nav-bar end */
+
+
+.text-container{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container a{
+    text-decoration: none;
+}
+
+/* text container end */
+
+
+.text-img-container{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(242,242,244);
+}
+
+.text-img-container-text{
+    width: 100%;
+    height: 23vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-img-container-text h1{
+    font-size: 40px;
+}
+
+.text-img-container-text a{
+    text-decoration: none;
+}
+
+.text-img-container img{
+    width: 350px;
+    padding-top: 20px;
+}
+
+/* text img container end */
+
+
+.iphone-14{
+    width: 100%;
+    height: 70vh;
+}
+
+
+.iphone-text{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iphone-text h1{
+    font-size: 45px;
+}
+
+.iphone-text span ul{
+    display: flex;
+    gap: 25px;
+}
+
+.iphone-text span ul li a{
+    text-decoration: none;
+}
+
+.iphone-14-img{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* iphone 14 end */
+
+
+.box-container{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 15px; 
+}
+
+.box-1{
+    width: 48%;
+    height: 60vh;
+    background-image: url('./promo_apple_event_september__c1zbjahmv18i_large.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 280px;
+
+}
+
+.box-1 a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.box-2{
+    width: 48%;
+    height: 60vh;
+    background-image: url('./promo_iphone14pro_spring__c7pyovk04j2a_large.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 18px;
+}
+
+.box-2 ul{
+   list-style: none;
+   display: flex;
+   gap: 20px;
+}
+
+.box-2 ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+.box-3{
+    width: 48%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./promo_ipadpro_refresh__evi9utuixwuq_large\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 15px;
+    
+}
+
+.super{
+    display: flex;
+    align-items: center;
+}
+
+
+.box-4{
+    width: 48%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./promo_apple_watch_series_8_spring__d9hfvufh7hyu_large\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.box-4 ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+ }
+ 
+ .box-4 ul li a{
+     color: blue;
+     text-decoration: none;
+ }
+
+.box-5{
+    width: 48%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./iphone_tradein_promo__d5au3rkw5kuq_large\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 15px;
+}
+
+.box-5 a{
+    text-decoration: none;
+    color: blue;
+}
+
+.box-6{
+    width: 48%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./promo_airpods_pro_avail__gaxggskofx6y_large\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.box-6 ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+ }
+ 
+ .box-6 ul li a{
+     color: blue;
+     text-decoration: none;
+ }
+
+ /* box container end */
+
+ .slider-container{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+ }
+
+ .carousel-inner{
+    width: 90%;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+
+ /* slider-container */
+
+ .footer-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245,245,247);
+    padding: 80px;
+ }
+
+ .footer-container p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(89, 89, 90);
+ }
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    column-gap: 32px;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(89, 89, 90);
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.para h6{
+    padding-left: 140px;
+    font-size: 13px;
+}
+
+.last-nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(74, 73, 73);
+    padding-inline: 65px;
+}
+
+.text-2 ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.text-2 ul a{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    .nav-bar{
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+    }
+    .text-container{
+        width: 100%;
+        height: auto;
+        font-size: 9px;
+    }
+    .text-img-container{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .iphone-14{
+        width: 100%;
+        height: auto;
+        font-size: 12px;
+    }
+    .text-img-container-text{
+        width: 100%;
+        height: auto;
+    }
+    .iphone-text{
+        width: 100%;
+        height: auto;
+    }
+    .iphone-14-img{
+        display: none;
+    }
+    .box-container{
+        width: 100%;
+        height: auto;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .box-1{
+        width: 100%;
+        height: auto;
+
+    }
+    .box-3{
+        width: 100%;
+        height: 50vh;
+    }
+    .box-4{
+        width: 100%;
+        height: 50vh;
+    }
+    .box-5{
+        width: 100%;
+        height: 50vh;
+    }
+    .box-6{
+        width: 100%;
+        height: 50vh;
+    }
+    .footer-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-nav{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .para{
+        width: 100%;
+        height: auto;
+        display:flex ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .last-nav{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+    }
+}
